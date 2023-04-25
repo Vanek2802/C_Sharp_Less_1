@@ -20,4 +20,4 @@ else
     max = SecondNamber;
     min = FirstNamber;
 }
-Console.WriteLine ( " max = " + max + " , " + " min = " + min );
+Console.WriteLine ( " Otvet: max = " + max + " , " + " min = " + min );
