@@ -9,3 +9,11 @@ int SecondNamber = Convert.ToInt32 ( Console.ReadLine () );
 
 Console.WriteLine ( " Enter Third namber: - ");
 int ThirdNamber = Convert.ToInt32 ( Console.ReadLine () );
+
+if ( FirstNamber > SecondNamber )
+{
+    if ( FirstNamber > ThirdNamber )
+    {
+        Console.WriteLine (" Max namber: " + FirstNamber);
+    }
+}
