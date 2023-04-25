@@ -5,3 +5,12 @@
 Console.Write (" Enter namber: - ");
 int namber = Convert.ToInt32 ( Console.ReadLine ());
 
+int remDiv = namber % 2;
+if ( remDiv == 0 )
+{
+    Console.WriteLine (" Yes ");
+}
+else 
+{
+    Console.WriteLine (" No ");
+}
