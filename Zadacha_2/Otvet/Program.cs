@@ -7,3 +7,17 @@ int min = 0;
 Console.Write ("Enter First namber -");
 int FirstNamber = Convert.ToInt32 (Console.ReadLine());
 
+Console.Write ("Enter Second namber -");
+int SecondNamber = Convert.ToInt32 (Console.ReadLine());
+
+if ( FirstNamber > SecondNamber )
+{
+    max = FirstNamber;
+    min = SecondNamber;
+}
+else 
+{
+    max = SecondNamber;
+    min = FirstNamber;
+}
+Console.WriteLine ( " max = " + max + " , " + " min = " "+ min " );
