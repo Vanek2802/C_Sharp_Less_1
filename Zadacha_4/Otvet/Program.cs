@@ -16,4 +16,17 @@ if ( FirstNamber > SecondNamber )
     {
         Console.WriteLine (" Max namber: " + FirstNamber);
     }
+    else 
+    {
+        Console.WriteLine (" Max namber: " + ThirdNamber);
+    }
+}
+
+else if ( SecondNamber > ThirdNamber )
+{
+         Console.WriteLine (" Max namber: " + SecondNamber);
+}
+else 
+{
+    Console.WriteLine (" Max namber: " + ThirdNamber);
 }
